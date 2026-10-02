@@ -1,4 +1,5 @@
-// webpack.config.js
+// webpack.prod.js
+
 import { merge } from "webpack-merge";
 import common from "./webpack.common.js"
 
