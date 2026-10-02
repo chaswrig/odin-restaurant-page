@@ -1,3 +1,10 @@
 // src/index.js
 import "./styles.css";
-// import imageName from "./directoryName/filename.png"
+import { pageLoader } from "./page_loader.js";
+import { buttonMaker } from "./button_maker.js";
+
+buttonMaker("home");
+buttonMaker("menu");
+buttonMaker("about");
+
+pageLoader("home");
